@@ -1,0 +1,33 @@
+
+{
+  "name": "curl-wuker-senitor/curl",
+  "description": "curl demo",
+  "keywords": [
+    "curl",
+    "php"
+  ],
+  "homepage": "https://github.com/18811566213/curl-wuker-senitor",
+  "type": "php curl demo",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/18811566213/curl-wuker-senitor"
+  },
+  "authors": [
+    {
+      "name": "wuker",
+      "email": "18811566213@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "terry\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
